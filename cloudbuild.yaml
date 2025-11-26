@@ -8,6 +8,6 @@ steps:
         echo "Repository: $REPO_NAME"
         echo "Branch: $BRANCH_NAME"
         echo "Commit Id: $COMMiT_SHA"
-
 options:
-      logging: CLOUD_LOGGING_ONLY
+  logging: CLOUD_LOGGING_ONLY
+
