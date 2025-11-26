@@ -7,7 +7,7 @@ steps:
         echo "B"
         echo "Repository: $REPO_NAME"
         echo "Branch: $BRANCH_NAME"
-        echo "Commit Id: $COMMiT_SHA"
+        echo "Commit Id: $COMMIT_SHA"
 options:
   logging: CLOUD_LOGGING_ONLY
 
