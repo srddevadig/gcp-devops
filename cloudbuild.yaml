@@ -1,7 +1,7 @@
 steps:
-  - name: 'aplhine'
-    entrypoint: 'sh'
-    args:
+- name: 'aplhine'
+  entrypoint: 'sh'
+  args:
       - '-c'
       - |
         echo "B"
@@ -9,6 +9,5 @@ steps:
         echo "Branch: $BRANCH_NAME"
         echo "Commit Id: $COMMiT_SHA"
 
-    options:
+options:
       logging: CLOUD_LOGGING_ONLY
-      
